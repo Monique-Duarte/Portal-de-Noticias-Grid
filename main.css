@@ -26,7 +26,7 @@ header {
 .submenu {
     display: none;
     border: 1px solid red;
-    background-color: #ccc;
+    background-color: white;
     position: absolute;
     left: 0;
     width: 300px;
@@ -59,10 +59,9 @@ form {
     margin-left: 20px;
 }
 
-.conteudo{
+.conteudo {
     display: grid;
     grid-template-columns: 70% 30%;
-    
 }
 
 .noticia img {
@@ -100,3 +99,4 @@ aside .noticia {
     column-gap: 1%; /*espaçamento entre as colunas*/
     row-gap: 5%;
 }
+
