@@ -18,6 +18,9 @@
                     <button type="submit">Pesquisar</button>
                 </form>
         </div>
+        <div class="botao-menu">
+            <button type="button">Abrir menu</button>
+        </div>
                 <nav class="container">
                     <ul class="menu">
                         <li>Esportes
@@ -61,30 +64,30 @@
                             </a>
                         </article>
                     </section>
-                    <section class=" container novidades">
-                        <h2>Economia</h2>
-                        <div class="noticias">
-                            <article class="noticias">
+                    <section>
+                        <h2>Ultimas noticias</h2>
+                        <div class= "container noticias">
+                            <article class="noticia">
                                 <a href="#">
-                                    <img src="https://via.placeholder.com/220x220"/>
+                                    <img src="https://via.placeholder.com/320x320"/>
                                     <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat asperiores a cupiditate necessitatibus magnam consequuntur ea debitis quidem ipsum sunt</h3>
                                 </a>
                             </article>
-                            <article class="noticias">
+                            <article class="noticia">
                                 <a href="#">
-                                    <img src="https://via.placeholder.com/220x220"/>
+                                    <img src="https://via.placeholder.com/320x320"/>
                                     <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat asperiores a cupiditate necessitatibus magnam consequuntur ea debitis quidem ipsum sunt</h3>
                                 </a>
                             </article>
-                            <article class="noticias">
+                            <article class="noticia">
                                 <a href="#">
-                                    <img src="https://via.placeholder.com/220x220"/>
+                                    <img src="https://via.placeholder.com/320x320"/>
                                     <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat asperiores a cupiditate necessitatibus magnam consequuntur ea debitis quidem ipsum sunt</h3>
                                 </a>
                             </article>
-                            <article class="noticias">
+                            <article class="noticia">
                                 <a href="#">
-                                    <img src="https://via.placeholder.com/220x220"/>
+                                    <img src="https://via.placeholder.com/320x320"/>
                                     <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat asperiores a cupiditate necessitatibus magnam consequuntur ea debitis quidem ipsum sunt</h3>
                                 </a>
                             </article>
@@ -115,5 +118,15 @@
                 </section>
             </aside>
         </div>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function(){
+                $('.botao-menu button').click(function(){
+                    $('.menu').slideToggle();
+                })
+            })
+        </script>
 </body>
 </html>
