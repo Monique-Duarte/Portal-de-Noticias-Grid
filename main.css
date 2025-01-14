@@ -23,19 +23,18 @@ header {
     margin-bottom: 56px;
 }
 
-button{
-    background-color: cornflowerblue;
-    border-radius: 5px;
-}
-
 .submenu {
     display: none;
-    border: 1px solid red;
-    background-color: white;
+    border: 1px solid rgb(69, 77, 182);
+    background-color: rgb(69, 77, 182);
     position: absolute;
     left: 0;
     width: 300px;
     top: 100%; /*utiliza toda a altura do elemento*/   
+}
+
+button {
+    background-color: rgb(206, 165, 245);
 }
 
 .menu > li { 
@@ -55,9 +54,18 @@ button{
     display: block;
 }
 
+nav {
+    background-color: rgb(206, 165, 245);
+    justify-content: center;
+    align-items: center;
+}
 .submenu li {
     display: block;
     padding: 8px;
+}
+
+.submenu li a {
+    color: white;
 }
 
 form {
@@ -75,6 +83,25 @@ form {
 
 .destaque {
     margin-bottom: 56px;
+    text-align: justify;
+    margin: 5px 5px;
+    font-size: 0.8em;
+}
+
+.conteudo a {
+    text-decoration: none;
+}
+
+.conteudo h3 {
+    font-size: 1em;
+    text-align: justify;
+}
+
+.destaque .noticia img { 
+    width: 360px;
+    height: 360px;
+    margin-bottom: 24px;
+    margin-right: 16px;
 }
 
 .destaque .noticia a {
